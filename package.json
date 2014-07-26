@@ -2,9 +2,9 @@
   "name": "mrmrs.github.io",
   "version": "0.0.1",
   "description": "Open source projects by @mrmrs",
-  "repository" : {
-    "type" : "git" ,
-    "url" : "http://github.com/mrmrs/mrmrs.github.io"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mrmrs/mrmrs.github.io"
   },
   "devDependencies": {
     "gulp": "~3.5.5",
@@ -21,9 +21,12 @@
     "gulp-ruby-sass": "~0.3.0"
   },
   "author": {
-    "name" : "@mrmrs",
-    "email" : "hi@mrmrs.cc",
-    "url" : "http://mrmrs.cc"
-   },
-  "license": "MIT"
+    "name": "@mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp"
+  }
 }
