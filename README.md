@@ -1,4 +1,3 @@
-# Open Source Portfolio of Adam Morse
+# About
 
-Feel free to fork this and use it as your own.
-
+Source for my personal website 
