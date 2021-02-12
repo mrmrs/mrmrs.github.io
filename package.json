@@ -1,31 +1,19 @@
 {
-  "name": "mrmrs.github.io",
-  "version": "1.0.0",
-  "description": "Open source projects by @mrmrs",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/mrmrs/mrmrs.github.io"
-  },
-  "devDependencies": {
-    "copy-files": "^0.1.0",
-    "immutable-css-cli": "^1.1.1",
-    "normalize.css": "^4.2.0",
-    "tachyons-cli": "^1.0.8",
-    "tachyons-modules": "^1.1.8",
-    "watch": "^0.19.2"
-  },
-  "author": {
-    "name": "@mrmrs",
-    "email": "hi@mrmrs.cc",
-    "url": "http://mrmrs.cc"
-  },
-  "license": "MIT",
+  "name": "mrmrs-new",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "npm run build:watch",
-    "mutations": "immutable-css src/tachyons.css --strict",
-    "build": "npm run build:css && npm run build:minify",
-    "build:css": "tachyons src/tachyons.css > css/tachyons.css",
-    "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
-    "build:watch": "watch 'npm run build' ./src/"
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "lodash.sample": "^4.2.1",
+    "next": "10.0.6",
+    "next-ga": "^2.3.4",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-ga": "^3.3.0",
+    "theme-ui": "^0.6.0-alpha.6"
   }
 }
