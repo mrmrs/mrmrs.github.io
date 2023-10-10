@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "lodash.sample": "^4.2.1",
-    "next": "10.0.6",
+    "next": "12.1.0",
     "next-ga": "^2.3.4",
     "react": "17.0.1",
     "react-dom": "17.0.1",
